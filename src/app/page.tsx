@@ -5,8 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import useLocalStorageState from "use-local-storage-state";
 
-const DEFAULT_USERNAME = "AnonymousPDD";
-const DEFAULT_ROOM = "Anonymous Room";
+const DEFAULT_USERNAME = "Anonymous";
+const DEFAULT_ROOM = "Test";
 
 export default function Home() {
   const [username, setUsername] = useLocalStorageState("chat-username", {
